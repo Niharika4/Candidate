@@ -1,0 +1,71 @@
+.candidate-main{
+    background: #F2F8FE;
+    color:gray;
+    height: 100vh;
+}
+.candidate-container{
+    padding: 20px;
+    height: 87vh;
+}
+
+.candidate-card{
+    background: #5479a3;
+    height: 48%;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 6px rgba(16, 24, 40, 0.06);
+    color: black;
+    display: inline-block;
+    width: 35%;
+    padding: 20px 20px;
+    border-radius: 6px;
+    margin: 20px;
+    margin-left: 10%;
+    
+}
+.candidate-header{
+    display: grid;
+    gap: 0px 40px;
+    grid-template: 0px 40px / 1fr 1fr;
+    font-size: 20px;
+    font-weight: 500;
+}
+.candidate-body{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr ;
+    gap: 8px 40px;
+
+}
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.candidate-body p{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.candidate-resume{
+    margin-top: 6px;
+    text-align: left;
+}
+.candidate-resume label{
+    font-size: 17px;
+}
+.candidate-resume p{
+    padding: 5px;
+    border-radius: 4px;
+    text-align: left;
+    color: white;
+}
+
+.candidate-search{
+    width: 100%;
+    padding: 18px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: larger;
+    color: gray;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.2);
+}

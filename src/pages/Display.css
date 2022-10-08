@@ -1,0 +1,54 @@
+.display-background {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15%;
+}
+
+.display-container {
+    width: 500px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: rgb(223, 224, 226);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
+
+.display-container .display-title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.display-container .display-footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-container .display-footer button {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(79, 116, 68);
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: rgb(244, 8, 55);
+}
+
+strong {
+    margin: 0px 8px;
+}

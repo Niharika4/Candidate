@@ -1,0 +1,105 @@
+.drag-form {
+    width: 90%;
+    padding: 8px 4px;
+    background-color: white;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 10px 0px, rgba(27, 31, 35, 0.15) 0px 1px 8px 1px;
+
+}
+
+
+.page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-file-upload {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#input-file-upload {
+    display: none;
+}
+
+#label-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 1rem;
+    padding-bottom: 15x;
+}
+
+#label-file-upload.drag-active {
+    background-color: #ffffff;
+}
+
+.upload-button {
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+}
+
+.upload-button:hover {
+    text-decoration-line: underline;
+}
+
+#drag-file-element {
+    position: absolute;
+    width: 100%;
+    border-radius: 1rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.drag-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    padding: 0px 8px;
+    margin-right: 8%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.upload-button {
+    color: #206DC5;
+    font-weight: 550;
+    font-size: large;
+}
+
+.drag-tag {
+    font-weight: 600;
+    font-size: medium;
+    color: rgb(104, 103, 103);
+}
+
+.button {
+    margin-bottom: 5px;
+}
+
+.lower {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(104, 103, 103);
+    font-size: small;
+    margin-left: 6px;
+}
+
+.header-span {
+    color: gray;
+}
